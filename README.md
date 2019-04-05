@@ -5,15 +5,25 @@ You need to install node and npm first before running the commandline below
 ## Library Using
 
 reactjs
+
 react-create-app
+
 react-dom
+
 react-redux
+
 redux
+
 bulma
+
 font-awesome
+
 faker
+
 reactjs-popup
+
 lightbox-react
+
 
 ## Available Scripts
 
