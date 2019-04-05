@@ -1,0 +1,28 @@
+.ClearBoth {
+    height: 50px;
+}
+
+.button-import {
+    width: 100%;
+    height: 190px;
+}
+
+.fa-plus-circle {
+    font-size: 70px;
+}
+
+.action-add {
+    margin-top: 10px;
+}
+
+.action-add > a{
+    float: right;
+}
+
+.navbar-item img {
+    max-height: 3.75rem;
+}
+
+h1 { 
+    font-size: 2em;
+}

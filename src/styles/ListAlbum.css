@@ -1,0 +1,62 @@
+.card {
+    min-height: 330px;
+    width: 100%;
+    border-radius: 10px;
+}
+.card-content {
+    min-height: 30%;
+}
+input.input-favor , input.input-love{
+    border: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    opacity: 0;
+}
+
+label.label-favor , label.label-love{
+    position: relative;
+    float: right;
+    color: #C8C8C8;
+}
+
+label.label-favor:before, label.label-love::before {
+    margin: 5px;
+    content: "\f005";
+    font-family: FontAwesome;
+    display: inline-block;
+    font-size: 1.5em;
+    color: #ccc;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+label.label-love::before {
+    content: "\f004";
+}
+input.input-favor:checked~label.label-favor:before {
+    color: #FFC107;
+}
+
+label.label-favor:hover~label.label-favor:before {
+    color: #ffdb70;
+}
+
+label.label-favor:hover:before {
+    color: #FFC107;
+}
+
+input.input-love:checked~label.label-love:before {
+    color: red;
+}
+
+label.label-love:hover~label.label-love:before {
+    color:red;
+}
+
+label.label-love:hover:before {
+    color: red;
+}
