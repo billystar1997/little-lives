@@ -90,7 +90,7 @@ class AddImage extends Component {
                         </label>
                       </div>
                     </div>
-                    {this.state.imagePreviewUrl && (<figure class="image is-3by2">
+                    {this.state.imagePreviewUrl && (<figure className="image is-3by2">
                       <img id="target" src={this.state.imagePreviewUrl} />
                     </figure>)}
                     <div className="action-add">

@@ -57,7 +57,7 @@ class App extends Component {
               </nav>
             </div>
             <div className="ClearBoth" />
-            <h1>Welcome come back , let's add more memories !!!</h1>
+            <h1 className="title is-1">Welcome come back , let's add more memories !!!</h1>
             <div className="ClearBoth" />
             <Route path="/" exact component={ListAlbum} />
             <Route path="/albumdetail/:id" exact component={Album} />

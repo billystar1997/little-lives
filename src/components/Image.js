@@ -12,7 +12,7 @@ class Image extends Component {
   render() {
     return (
       <div>
-        <h1>This is a image</h1>
+        <h1 class="title is-1">This is a image</h1>
       </div>
     );
   }
